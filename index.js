@@ -1,6 +1,3 @@
-var addButton = document.getElementsByClassName("add").item(0);
-addButton.addEventListener("click", validateForm);
-
 //function to validate age input on form
 function validateAge(){
     var age = document.querySelector("input").value;
@@ -22,6 +19,8 @@ function validateForm(){
     //calling function to validate age
     validateAge();
     //calling function to require relationship
-    requireRelationship();
-    
+    requireRelationship(); 
 }
+
+var addButton = document.getElementsByClassName("add").item(0);
+addButton.addEventListener("click", validateForm);
