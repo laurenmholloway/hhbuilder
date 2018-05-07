@@ -1,7 +1,7 @@
 //function to validate age input on form
 function validateAge(){
     var age = document.querySelector("input").value;
-    if(age <= 0 || age == ""){
+    if(age <= 0 || age === ""){
         alert("Age must be greater than 0.");    
     }
 }
@@ -9,7 +9,7 @@ function validateAge(){
 //function to require the relationship input
 function requireRelationship(){
     var relationship = document.querySelector("select").value;
-    if(relationship == ""){
+    if(relationship === ""){
         alert("Relationship is required");
     }
 }
