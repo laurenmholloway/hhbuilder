@@ -38,9 +38,9 @@ function isValidForm() {
 }
 
 //function definition to remove member
-function removeMember(){
+// function removeMember(){
 
-}
+// }
 
 //function definition to create elements to show added family members
 function showAddedMembers() {
@@ -64,8 +64,7 @@ function showAddedMembers() {
         document.querySelector("ol").appendChild(newElement).appendChild(editButton).insertAdjacentElement("afterend", removeButton);
     
         return false;
-    }
-    
+    }   
 }
 
 var addButton = document.querySelector(".add");
